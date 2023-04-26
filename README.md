@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+Created using create-react-app;
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Brief Description of the Application : 
+A React weather application using API and Axios is a web-based application that allows users to search for the current weather conditions of a particular location. The application uses a weather API and Axios, a JavaScript library for making HTTP requests to the server.
 
-## Available Scripts
+Here is how the application works:
 
-In the project directory, you can run:
+1. The user enters the name of a location in the search bar of the application.
+2. The application sends an HTTP request to the weather API using Axios library, passing in the user's input as a parameter.
+3. The API returns the current weather conditions for the requested location in JSON format.
+4. The application extracts the relevant information from the JSON response and displays it on the user's screen, including the temperature, weather description, and location name.
 
-### `npm start`
+The application can be built using React.js, a popular JavaScript library for building user interfaces. The user interface can be designed using HTML and CSS, and the application logic can be implemented using JavaScript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To integrate the weather API into the application, you will need to obtain an API key from a weather service provider such as OpenWeatherMap or WeatherStack. You can then use this API key to make HTTP requests to the weather API and retrieve the weather data for a particular location.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Axios library can be used to make HTTP requests from within the React application. It provides a simple and easy-to-use API for making GET, POST, PUT, and DELETE requests to the server. To use Axios in your application, you will need to install it using NPM, and then import it into your code.
 
-### `npm test`
+Overall, a React weather application using API and Axios can be a great way to practice building web applications with React, and integrating external APIs into your application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In this project I have used, OpenWeatherMap for API key. 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The screenshot of the project is down below - 
