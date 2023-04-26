@@ -21,3 +21,5 @@ Overall, a React weather application using API and Axios can be a great way to p
 In this project I have used, OpenWeatherMap for API key. 
 
 The screenshot of the project is down below - 
+
+![ReactWeatherWallpaper](https://user-images.githubusercontent.com/60266970/234664452-6559db7c-ef9b-472c-8123-aa55da741234.jpg)
