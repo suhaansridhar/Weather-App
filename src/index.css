@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  background-color: skyblue;
+  color: white;
+  border-color: white;
+  background: url(/Users/suhaansridhar/Desktop/React/weatherapplication/public/wallpaperReact.jpg);
 }
 
 code {
@@ -18,7 +20,7 @@ code {
   width: 50%;
   margin: 100px auto;
   padding: 1rem;
-  box-shadow: black 2px 2px 4px;
+  box-shadow: white 2px 2px 4px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -26,8 +28,16 @@ code {
   justify-content: center;
 }
 
-.inner--container--1{
+.weather--location--name{
+  padding: 1rem;
+  font-size: 1.4rem;
+}
 
+.inner--container--2{
+  border: 0.1rem solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .weather--temperature{

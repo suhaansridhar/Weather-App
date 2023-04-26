@@ -13,7 +13,6 @@ const Main = () => {
     function search(){
         axios.get(url).then((response) => {
             setData(response.data)
-            console.log(response.data)
         })
     }
 
@@ -29,11 +28,17 @@ const Main = () => {
                 <button onClick={search}><AiOutlineSearch /></button>
             </div>
             <div className="inner--container--1">
-                <h3>{data.name}</h3>
+                <div className="weather--location--name">{data.name}</div>
                 <div className="weather--temperature">{data.main? data.main.temp : null}*</div>
                 <div className="high--low">H:{data.main? data.main.temp_max : null} L:{data.main? data.main.temp_min : null}</div>
             </div>
+            <div className="inner--container--2">
+                <div className="inner--container--2--child">Humidity: {data.main? data.main.humidity : null}</div><hr />
+                <div className="inner--container--2--child">Visibility: {data.visibility? data.visibility : null}</div><hr />
+                <div className="inner--container--2--child">Pressure: {data.main? data.main.pressure : null}</div>
+            </div>
         </div>
+        <h2>* for degrees</h2>
       </div>
     )
 }
