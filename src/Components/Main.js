@@ -6,7 +6,7 @@ import {AiOutlineSearch} from 'react-icons/ai';
 const Main = () => {
     const [location, setLocation] = useState('');
     const [data, setData] = useState({});
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=ca13fd5cad80951f9021aee9c8656c29`;
+    const url = `Add your url`;
 
     
 
